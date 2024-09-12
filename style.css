@@ -12,15 +12,16 @@ body {
   
   .box-span {
     position: absolute;
-    bottom: 0;
+    margin-top: -200px;
     height: 40%;
     width: 500px;
     background: linear-gradient(rgba(206, 81, 206, 0.582),rgba(79, 225, 230, 0.575));
-    backdrop-filter: blur(10px);
-    border-radius: 20px;
+    border-radius: 10px;
     transition: height 0.5s ease-in-out;
     overflow: hidden;
-    margin: -200px 0px;
+    /* bottom: 0;
+    margin: -200px 0px; */
+    margin-top: 10px;
   }
   
   .box-span:hover {
@@ -42,8 +43,13 @@ body {
     background-color: rgba(255, 255, 255, 0.596);
     margin: 20px 20px;
     border-radius: 10px;
+    transition:opacity 0.6s ease-in-out;
+    opacity: 0
+    
   }
-  
+  .mid-wrapper .box-span:hover h4{
+    opacity: 1;
+  }
   .box-span .btn {
     height: 35px;
     width: 100px;
@@ -197,10 +203,9 @@ body {
     content: '';
     background: linear-gradient(310deg, rgb(57, 245, 88), rgb(52, 206, 233));
     position: absolute;
-    inset: -20px 80px;
-    transition: 0.3s;
-    animation: vivek 4s linear infinite;
-   
+    
+    
+   inset: 0px;
   }
   
   
@@ -220,14 +225,17 @@ body {
     inset: 9px;
     z-index: 1;
     border-radius: 50%;
-    background-image: url(clg-pic.jpg);
+    background-image: url(assests/clg-pic.jpg);
     background-size: 350px;
     background-position: top;
    
   }
   .img-wrapper:hover:before{
-    animation-play-state: paused;
-    inset: 0px;
+    /* animation-play-state: paused;
+    inset: 0px; */
+    transition: 0.3s;
+    animation: vivek 4s linear infinite;
+    inset: -20px 80px;
   } 
   
   .git {
@@ -360,7 +368,7 @@ body {
 }
 .ug{
     position: absolute;
-    background-image: url(ccsu.png);
+    background-image: url(assests/ccsu.png);
     height: 170px;
     width: 160px;
     margin: 120px 950px;
@@ -382,7 +390,7 @@ body {
 }
 .up{
     position: absolute;
-    background-image: url(up.png);
+    background-image: url(assests/up.png);
     height: 170px;
     width: 170px;
     margin: 80px 950px;
@@ -416,7 +424,10 @@ body {
     display: flex;
     align-items: center;
     padding-left: 20px;
-}
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px black;
+  }
+
 .detail h3:hover{
     font-size: 20px;
 }
@@ -431,7 +442,10 @@ body {
     align-items: center;
     padding-left: 20px;
     color: black;
-}
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px black;
+  }
+
 .detail span:hover{
     font-size: 17px;
 }
@@ -442,6 +456,11 @@ body {
   display: flex;
   align-items: center;
   padding-left: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px black;
+}
+.detail h4:hover{
+  font-size: 17px;
 }
 .detail-2{
     position: absolute;
@@ -468,6 +487,8 @@ border-radius: 5px;
     display: flex;
     align-items: center;
     padding-left: 20px;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 5px;
 }
 .detail-2 h3:hover{
     font-size: 20px;
@@ -483,6 +504,8 @@ border-radius: 5px;
     align-items: center;
     padding-left: 20px;
     color: black;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 5px;
 }
 .detail-2 span:hover{
     font-size: 17px;
@@ -496,6 +519,8 @@ border-radius: 5px;
     align-items: center;
     padding-left: 20px;
   color: green;
+  box-shadow: 0px 0px 10px black;
+  border-radius: 5px;
 }
 .detail-2 h5:hover{
     font-size: 15px;
