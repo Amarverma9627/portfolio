@@ -1,0 +1,201 @@
+
+/* .................Contact section code................. */
+
+.main-wrappper {
+    background: linear-gradient(145deg, rgb(75, 197, 206), rgb(236, 80, 197));
+    background-size: cover;
+    width: 100%;
+    height: 610px;
+    position: relative;
+    top: 0;
+  }
+  
+  .main-wrappper .head p {
+    background-color: #65ec8d7a;
+    margin: 90px 0px;
+    color: white;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    height: 40px;
+    font-size: 25px;
+  
+  }
+  
+  .fa-phone {
+    position: absolute;
+    margin: 195px 255px;
+    font-size: 30px;
+    color: white;
+  }
+  
+  .main-wrappper .detaill h1 {
+    margin: 190px 290px;
+    position: absolute;
+    color: aqua;
+  
+  }
+  
+  .main-wrappper .detaill .no {
+    margin: 190px 490px;
+    padding-left: 40px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.288);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 600px;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  .main-wrappper .detaill .no:hover {
+    font-size: 27px;
+  
+  }
+  
+  .fa-envelope {
+    position: absolute;
+    margin: 250px 250px;
+    font-size: 30px;
+    color: white;
+  }
+  
+  .main-wrappper .detaill .email {
+    margin: 250px 290px;
+    position: absolute;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: aqua;
+  }
+  
+  .main-wrappper .detaill .gmail:hover {
+    font-size: 31px;
+  }
+  
+  .main-wrappper .detaill .gmail {
+    margin: 250px 490px;
+    padding-left: 40px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.288);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 600px;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  .mky {
+    height: 150px;
+    position: absolute;
+    margin: 350px 290px;
+    border-radius: 10px;
+    mix-blend-mode: luminosity;
+  }
+  
+  .box {
+    margin: 350px 490px;
+    padding-left: 40px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.288);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    height: 150px;
+    width: 600px;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  .box i {
+  
+    font-size: 35px;
+  
+  }
+  
+  .box .g-hub {
+    height: 45px;
+    width: 45px;
+    position: relative;
+    border-radius: 100%;
+    margin: 0px 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.6s linear;
+  }
+  
+  .box .g-hub:hover {
+    background-color: black;
+  }
+  
+  .fa-github-square {
+    position: absolute;
+  
+  }
+  
+  .box .in-link {
+    height: 45px;
+    width: 45px;
+    position: relative;
+    border-radius: 100%;
+    transition: 0.6s linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .box .in-link:hover {
+    background-color: blue;
+  }
+  
+  .fa-linkedin {
+    position: absolute;
+  }
+  
+  .box .yt-clone {
+    height: 45px;
+    width: 45px;
+    transition: 0.6s linear;
+    position: relative;
+    border-radius: 100%;
+    margin: 0px 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .box .yt-clone:hover {
+    background-color: red;
+  }
+  
+  .fa-youtube-square {
+    position: absolute;
+  }
+  
+  .box .twt-er {
+    height: 45px;
+    width: 45px;
+    transition: 0.6s linear;
+    position: relative;
+    border-radius: 100%;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .box .twt-er:hover {
+    background-color: rgb(62, 144, 238);
+  }
+  
+  .fa-twitter {
+    position: absolute;
+  }

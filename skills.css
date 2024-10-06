@@ -1,0 +1,264 @@
+/* ....................Skills section code............... */
+
+.main-head {
+    position: relative;
+    background: var(--bg-color);
+    width: 100%;
+    height: 600px;
+  
+  }
+  
+  .mid-wrapper-2 {
+    position: absolute;
+    margin: 100px 50px;
+  
+    height: 150px;
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.349);
+    border-radius: 10px;
+  
+  }
+  
+  .mid-wrapper-2 p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 19px;
+    padding: 0px 10px;
+    text-align: justify;
+    color: green;
+  
+  }
+  
+  .mid-wrapper-2 h4 {
+    color: red;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: all 0.4s ease;
+  }
+  
+  .mid-wrapper-2 h4:hover {
+    font-size: 21px;
+  }
+  
+  .li-flex {
+    display: flex;
+  }
+  
+  .c-plus {
+    height: 200px;
+    width: 170px;
+    border-radius: 10px;
+    border: 1px solid white;
+  
+  }
+  
+  .c-plus img {
+    height: 90px;
+    width: 90px;
+    opacity: 0.6;
+    border-radius: 10px;
+    margin: 30px 40px;
+  }
+  
+  .c-plus img:hover {
+    height: 92px;
+    width: 92px;
+    opacity: 1;
+  }
+  
+  .c-plus p {
+    color: rgb(68, 0, 255);
+    display: flex;
+    font-size: 20px;
+    margin: -10px 55px;
+    transition: 0.5s;
+  }
+  
+  .c-plus p:hover {
+    font-size: 23px;
+  
+    color: red;
+    font-weight: bold;
+  }
+  
+  .css-clone {
+    height: 200px;
+    width: 170px;
+    border-radius: 10px;
+    border: 1px solid white;
+    margin: 0px 40px;
+  }
+  
+  .css-clone img {
+    height: 90px;
+    width: 90px;
+    opacity: 0.6;
+    border-radius: 10px;
+    margin: 30px 40px;
+  }
+  
+  .css-clone img:hover {
+    height: 92px;
+    width: 92px;
+    opacity: 1;
+  }
+  
+  .css-clone p {
+    color: rgb(68, 0, 255);
+    display: flex;
+    font-size: 20px;
+    margin: -10px 55px;
+  }
+  
+  .css-clone p:hover {
+    font-size: 23px;
+    transition: 0.2s;
+    color: red;
+    font-weight: bold;
+  }
+  
+  .js-clone {
+    height: 200px;
+    width: 170px;
+    border-radius: 10px;
+    border: 1px solid white;
+    margin: 0px 0px;
+  }
+  
+  .js-clone img {
+    height: 90px;
+    width: 90px;
+    opacity: 0.6;
+    border-radius: 10px;
+    margin: 30px 40px;
+  }
+  
+  .js-clone img:hover {
+    height: 92px;
+    width: 92px;
+    opacity: 1;
+  }
+  
+  .js-clone p {
+    color: rgb(68, 0, 255);
+    display: flex;
+    font-size: 20px;
+    margin: -10px 40px;
+    transition: all 0.4s ease;
+  }
+  
+  .js-clone p:hover {
+  
+    transform: translateY(-5px) scale(1.05);
+    color: red;
+  
+  }
+  
+  .react-clone {
+    height: 200px;
+    width: 170px;
+    border-radius: 10px;
+    border: 1px solid white;
+    margin: 0px 40px;
+  }
+  
+  .react-clone img {
+    height: 90px;
+    width: 90px;
+    opacity: 0.6;
+    border-radius: 10px;
+    margin: 30px 40px;
+  }
+  
+  .react-clone img:hover {
+    height: 92px;
+    width: 92px;
+    opacity: 1;
+  }
+  
+  .react-clone p {
+    color: rgb(68, 0, 255);
+    display: flex;
+    font-size: 20px;
+    margin: -10px 43px;
+  
+  }
+  
+  .react-clone p:hover {
+    font-size: 23px;
+    transition: 0.2s;
+    color: red;
+    font-weight: bold;
+  }
+  
+  .boot-clone {
+    height: 200px;
+    width: 170px;
+    border-radius: 10px;
+    border: 1px solid white;
+    margin: 0px 0px;
+  }
+  
+  .boot-clone img {
+    height: 90px;
+    width: 90px;
+    opacity: 0.6;
+    border-radius: 10px;
+    margin: 30px 40px;
+  }
+  
+  .boot-clone img:hover {
+    height: 92px;
+    width: 92px;
+    opacity: 1;
+  }
+  
+  .boot-clone p {
+    color: rgb(68, 0, 255);
+    display: flex;
+    font-size: 20px;
+    margin: -10px 40px;
+  }
+  
+  .boot-clone p:hover {
+    font-size: 23px;
+    transition: 0.2s;
+    color: red;
+    font-weight: bold;
+  }
+  
+  .git-clone {
+    height: 200px;
+    width: 170px;
+    border-radius: 10px;
+    border: 1px solid white;
+    margin: 0px 40px;
+  }
+  
+  .git-clone img {
+    height: 90px;
+    width: 90px;
+    opacity: 0.6;
+    border-radius: 10px;
+    margin: 30px 40px;
+  }
+  
+  .git-clone img:hover {
+    height: 92px;
+    width: 92px;
+    opacity: 1;
+  }
+  
+  .git-clone p {
+    color: rgb(68, 0, 255);
+    display: flex;
+    font-size: 20px;
+    margin: -10px 40px;
+  }
+  
+  .git-clone p:hover {
+    font-size: 23px;
+    transition: 0.2s;
+    color: red;
+    font-weight: bold;
+  }
+  
